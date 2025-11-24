@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ITREPAIR </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+
+    <style>
+        body {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+<!--Menu-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand text-warning">ITREPAIR</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#company" class="nav-link">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#problems" class="nav-link">Problems</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#info" class="nav-link">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#feedback" class="nav-link">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+<!--Сайт-->
+    <section class="bg-dark text-light p-5 p-lg-4 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+               <div>
+                   <h1>Get your computer <span class="text-warning">Repaired</span> </h1>
+                    <p class="lead my-4">
+                        We want for your computer got started again!
+                    </p>
+                   <button class="btn btn-warning btn-lg">Сonsult a Specialist</button>
+               </div>
+                <img class="img-fluid mx-auto d-none d-sm-block" src="https://media.istockphoto.com/id/1336601182/vector/computer-repair-concept.jpg?s=612x612&w=0&k=20&c=loaH1Ko-PKbEiY3Tlya1yZvBjbK7gERS4iLt66OQ3OM=" width="200" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-warning text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center ">
+                <h3 class="mb-3 mb-md-0">Follow our news</h3>
+                <div class="input-group news-input" style="max-width: 75%;">
+                  <input type="text" class="form-control news-input" placeholder="Enter email" />
+                  <button class="btn btn-dark btn-lg" type="button" >Follow</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <div id="company">
+        <div  id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="vecteezy_wrench-and-screwdriver-on-the-computer-keyboard-it-service_4340179.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-dark">Your hardware is in good hands</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="vecteezy_technician-repairing-computer-equipment-soldering-semicon_32947563.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Your hardware is in good hands</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="vecteezy_technician-replacing-a-graphics-card_1254184.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Your hardware is in good hands</h5>
+          </div>
+        </div>
+      </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+        </div>
+        </div>
+
+
+    <section class="p-5">
+        <div class="container" id="problems">
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card bg-dark text light">
+                        <div class="card-body text-center">
+                            <div class="card mx-auto" style="width: 18rem;">
+                              <img src="laptop.svg" class="card-img-top mx-auto w-50 " alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Computers</h5>
+                                <p class="card-text">If all your computer's buttons flew away, we'll put them back in place quickly.</p>
+                                <a href="#" class="btn btn-primary">Ask for an expert</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text light">
+                        <div class="card-body text-center">
+                            <div class="card mx-auto" style="width: 18rem;">
+                              <img src="phone.svg" class="card-img-top mx-auto w-50" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Phones</h5>
+                                <p class="card-text">If your phone's screen got cracked on an asphalt, we'll change it immediately.</p>
+                                <a href="#" class="btn btn-primary">Ask for an expert</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text light">
+                        <div class="card-body text-center">
+                            <div class="card mx-auto" style="width: 18rem;">
+                              <img src="headphones.svg" class="card-img-top mx-auto w-50" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Headphones</h5>
+                                <p class="card-text">If your headphones make strange and scaring noises, we will train them.</p>
+                                <a href="#" class="btn btn-primary">Ask for an expert</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-dark text-light p-5 p-lg-4 pt-lg-5 text-center text-sm-start">
+        <div class="container" id="info">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        What services do we provide?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <p>💻Repair of computers, phones, headphones</p>
+        <p>🍏Installing Windows</p>
+        <p>🚒Computer cleaning</p>
+        <p>Setting up the Internet, routers, virus cleaning, etc</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Why we are better?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+          We have never made empty promises or rash actions.Our center values its reputation
+          and an authority as a truly experienced specialized official service that does it for the ages.
+          We provide our services to both legal entities and individuals.We have a very careful approach to choosing
+          There are no staff or craftsmen, so no one works for us without the necessary training and really good experience.
+          The key to the success of any enterprise is professional staff and honesty with customers in all aspects.
+          That is why we choose our staff so carefully. We only pay for the result!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        How to call the master at home?
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        1)All our contacts are listed on our website 2)Call us, specify the time and address that is convenient for you.
+          3)Soon our master is already working at your home or in the office of our company, only
+          experienced craftsmen who know absolutely everything about computer hardware repairs and ways to provide you with
+          really high-quality repairs for reasonable money and short time.Our craftsmen work through
+          dispatchers make field trips to absolutely all districts of Chisinau. As soon as the master arrives at the place
+          he immediately starts working and promptly detects the malfunction and fixes it.I would like to note that
+          the master leaves with all the necessary equipment. Often, the master fixes problems at the place of departure.
+          and you don't have to pick up the computer.If additional equipment or
+components are required for repair, the master takes the computer or laptop to our center, where it is already using
+          repairs the necessary equipment.
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section class="p-5">
+        <div class="container" id="feedback">
+            <div class="row g-4">
+                <div class="col-md mx-auto">
+                    <h2 class="text-center mb-4"> Contact Information</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> Stefan cel Mare 38
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Landline Phone:</span> Stefan cel Mare 38
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Mobile Phone:</span> Stefan cel Mare 38
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span> Stefan cel Mare 38
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md justify-content-center">
+                    <div id="map" class="mx-auto mt-3 mb-5" style="width: 500px; height: 300px; border-radius: 10px;"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="contaner">
+            <p class="lead">Copyright &copy; 2025 ITREPAIR</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"> ↑</i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZ2xhdmF0c2t5eSIsImEiOiJjbWlkaGNhd28wNzVnMmtzYmczZmYyaWFuIn0._eci6pYFn55bnO43Rvxb7w';
+const map = new mapboxgl.Map({
+	container: 'map', // container ID
+	style: 'mapbox://styles/mapbox/streets-v12', // style URL
+	center: [-74.5, 40], // starting position [lng, lat]
+	zoom: 18, // starting zoom
+});
+    </script>
+</body>
+</html>
